@@ -15,6 +15,11 @@
       src="https://kit.fontawesome.com/f356f0e3d9.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      *{
+        /* outline: 1px solid limegreen; */
+      }
+    </style>
   </head>
   <body>
     <!-- Header for nav and header banner -->
@@ -274,9 +279,9 @@
       <!-- Deal of the day section -->
       <section class="my-10">
         <!-- DOD texts -->
-        <div class="flex items-center gap-32">
+        <div class="lg:flex items-center gap-32 justify-center">
           <div>
-            <h1 class="font-extrabold text-5xl mb-4 text-black">Deal of the day</h1>
+            <h1 class="font-extrabold text-4xl lg:text-5xl mb-4 text-black">Deal of the day</h1>
             <p class="text-base font-medium text-black opacity-70">
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical Latin literature from 45 BC, making
@@ -285,30 +290,30 @@
           </div>
           <div class="flex items-center gap-4 text-center">
             <div>
-              <h2 class="font-extrabold text-5xl text-black">29</h2>
+              <h2 class="font-extrabold text-3xl lg:text-5xl text-black">29</h2>
               <p class="font-medium text-base text-black opacity-70">Days</p>
             </div>
             <i class="fa-solid fa-ellipsis-vertical"></i>
             <div>
-              <h2 class="font-extrabold text-5xl text-black">15</h2>
+              <h2 class="font-extrabold text-3xl lg:text-5xl text-black">15</h2>
               <p class="font-medium text-base text-black opacity-70">Hours</p>
             </div>
             <i class="fa-solid fa-ellipsis-vertical"></i>
             <div>
-              <h2 class="font-extrabold text-5xl text-black">25</h2>
+              <h2 class="font-extrabold text-3xl lg:text-5xl text-black">25</h2>
               <p class="font-medium text-base text-black opacity-70">Minutes</p>
             </div>
             <i class="fa-solid fa-ellipsis-vertical"></i>
             <div>
-              <h2 class="font-extrabold text-5xl text-black">08</h2>
+              <h2 class="font-extrabold text-3xl lg:text-5xl text-black">08</h2>
               <p class="font-medium text-base text-black opacity-70">Seconds</p>
             </div>
           </div>
         </div>
         <!-- DOD contents -->
-        <div class="flex items-center justify-between text-center mt-10">
+        <div class="lg:flex items-center justify-between text-center mt-10">
 
-          <div class="border-2 p-10 rounded-lg drop-shadow-2xl">
+          <div class="border-2 p-2 lg:p-10 rounded-lg drop-shadow-2xl mb-4 lg:mb-0">
             <img class="mx-auto" src="images/fruit6.png" alt="">
             <h3 class="text-2xl font-semibold mt-4 mb-2">12.90$ - 18.85$</h3>
             <hr>
@@ -329,7 +334,7 @@
             <div>
               <button class="text-red-400 text-lg font-bold" onclick="my_modal_1.showModal()">Details</button>
               <dialog id="my_modal_1" class="modal modal-middle">
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -354,8 +359,8 @@
             </div>
           </div>
 
-          <div class="border-2 p-10 rounded-lg drop-shadow-2xl">
-            <img src="images/fruit7.png" alt="">
+          <div class="border-2 p-2 lg:p-10 rounded-lg drop-shadow-2xl mb-4 lg:mb-0">
+            <img class="mx-auto" src="images/fruit7.png" alt="">
             <h3 class="text-2xl font-semibold mt-4 mb-2">12.90$ - 18.85$</h3>
             <hr>
             <p class="mt-2 mb-4">Oranges</p>
@@ -375,7 +380,7 @@
             <div>
               <button class="text-red-400 text-lg font-bold" onclick="my_modal_2.showModal()">Details</button>
               <dialog id="my_modal_2" class="modal modal-middle">
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -400,8 +405,8 @@
             </div>
           </div>
 
-          <div class="border-2 p-10 rounded-lg drop-shadow-2xl">
-            <img src="images/fruit8.png" alt="">
+          <div class="border-2 p-2 lg:p-10 rounded-lg drop-shadow-2xl mb-4 lg:mb-0">
+            <img class="mx-auto" src="images/fruit8.png" alt="">
             <h3 class="text-2xl font-semibold mt-4 mb-2">12.90$ - 18.85$</h3>
             <hr>
             <p class="mt-2 mb-4">Red Dragon</p>
@@ -421,7 +426,7 @@
             <div>
               <button class="text-red-400 text-lg font-bold" onclick="my_modal_3.showModal()">Details</button>
               <dialog id="my_modal_3" class="modal modal-middle">
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -446,8 +451,8 @@
             </div>
           </div>
 
-          <div class="border-2 p-10 rounded-lg drop-shadow-2xl">
-            <img src="images/fruit9.png" alt="">
+          <div class="border-2 p-2 lg:p-10 rounded-lg drop-shadow-2xl mb-4 lg:mb-0">
+            <img class="mx-auto" src="images/fruit9.png" alt="">
             <h3 class="text-2xl font-semibold mt-4 mb-2">12.90$ - 18.85$</h3>
             <hr>
             <p class="mt-2 mb-4">Bananas</p>
@@ -467,7 +472,7 @@
             <div>
               <button class="text-red-400 text-lg font-bold" onclick="my_modal_4.showModal()">Details</button>
               <dialog id="my_modal_4" class="modal modal-middle">
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                   <figure class="px-10 pt-10">
                     <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
                   </figure>
@@ -492,6 +497,10 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="text-center">
+          <button class="px-5 py-2.5 bg-red-500 rounded-lg text-white mt-10">Show All</button>
         </div>
       </section>
     </main>
